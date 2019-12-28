@@ -1,28 +1,21 @@
+# Channel-Routing
+
 本專案使用 QT5 / C++ 撰寫, 於Ubuntu 18.04可成功編譯並執行。  
 
-requiement:
-  qt5-default
-  make
-  build-essential
+* requiement:
+  * qt5-default
+  * make
+  * build-essential
 
-usage:
+* usage:
+```
   make
   ./route <file_name>
-
+```
 清除編譯後檔案:
-  make clean
-
-若無法成功編譯，請用apt 安裝 qt5-default。
-
-
-程式介面說明：
-
-	程式一執行就會於 console 輸出 Track 數量、 輸出 layout 結果、 並自動存成圖片檔，檔名為 route.png 。
-	checkBox:
-		程式中四個 checkBox，分別可選擇是否顯示 layer1, layer2, layer3, via。  
-	button :
-		SavePicture :可進行手動存圖，檔名依然為 route.png 。
-		+ : 畫面 Zoom In。
-		- : 畫面 Zoom Out。
+```
+make clean
+```
+若無法成功編譯，請用 apt 安裝 qt5-default。
 
 
